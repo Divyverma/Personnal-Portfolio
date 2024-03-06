@@ -19,7 +19,7 @@ document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener("click", ()
 
 
 var typed = new Typed(".auto-type", {
-    strings: ["Divyansh verma", "Frontend developer", "Designer"],
+    strings: ["Divyansh verma", "Frontend developer", "Programmer"],
     typeSpeed: 100,
     backspeed: 200,
     loop: true
