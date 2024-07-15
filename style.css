@@ -379,7 +379,7 @@ span::selection{
 
 .about-sectionp{
     /* width: 100%; */
-    height: 110vh;
+    height: 120vh;
     margin: 1rem 0 0 0;
     padding: 1rem;
     background: #eff4fd;
@@ -415,9 +415,9 @@ span::selection{
 }
 
 .lower-abtp{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin: 1rem;
-    height: 75%;
+    height: 78%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,12 +426,61 @@ span::selection{
 }
 
 .project-wrapper{
-    border: 1px solid black;
-    width: 96%;
+    /* border: 1px solid black; */
+    width: 95%;
     height: 45%;
+    background-color: #eff4fd;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.project{
+    border-right: 5px solid rgb(255, 115, 0);
+    width: 32%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4px;
+}
 
+.project img{
+    width: 88%;
+    height: 88%;
+    object-fit: contain;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+.abt-project{
+    /* border: 1px solid black; */
+    height: 95%;
+    width: 40%;
+}
+
+.abt-project h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(255, 115, 0);
+    z-index: 2;
+}
+
+.abt-project p{
+    color: #122121;
+    margin-bottom: 10px;
+}
+
+.abt-project a{
+    font-size: 10px;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+}
+
+.project img:hover{
+    transform:translateX(-30px)
+}
 
 
 /* ****contact section*********** */

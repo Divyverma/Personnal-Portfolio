@@ -1,0 +1,63 @@
+@media (max-width:480px) {
+    .project-wrapper{
+        /* border: 1px solid red; */
+        height: 48%;
+        width: 93%;
+        background-color: #eff4fd;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .project{
+        /* border: 1px solid black; */
+        border-right: 0;
+        border-bottom: 2px solid rgb(255, 115, 0);
+        height: 30%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 4px;
+    }
+    
+    .project img{
+        width: 88%;
+        height: 88%;
+        object-fit: contain;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        z-index: 3;
+    }
+    .abt-project{
+        /* border: 1px solid black; */
+        height: 95%;
+        width: 40%;
+        margin-right: 3px;
+    }
+    
+    .abt-project h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: rgb(255, 115, 0);
+        z-index: 2;
+    }
+    
+    .abt-project p{
+        font-size: 10px;
+        color: #122121;
+        margin-bottom: 4px;
+    }
+    
+    .abt-project a{
+        font-size: 7px;
+        color: rgb(255, 115, 0);
+        cursor: pointer;
+    }
+    
+    .project img:hover{
+        transform:translateX(-30px)
+    }
+}
