@@ -437,7 +437,12 @@ span::selection{
 }
 
 .project{
-    border-right: 4px solid rgb(255, 115, 0);
+    /* border-top: 2px solid #122121;
+    border-left: 2px solid #122121;
+    border-bottom: 2px solid rgb(255, 115, 0);
+    border-right: 2px solid rgb(255, 115, 0); */
+    border-bottom: 1px solid rgb(255, 115, 0);
+    border-right: 1px solid rgb(255, 115, 0);
     width: 32%;
     height: 96%;
     display: flex;
@@ -462,9 +467,10 @@ span::selection{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 85%;
-    /* margin-right: 5px; */
-    /* border-right: 3px solid rgb(255, 115, 0); */
+    width: 80%;
+    height: 70%;
+    margin-right: 7px;
+    border-right: 4px solid #122121;
 }
 .abt-project{
     /* border: 1px solid black; */
@@ -473,19 +479,20 @@ span::selection{
 }
 
 .abt-project h1{
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
     color: rgb(255, 115, 0);
     z-index: 2;
 }
 
 .abt-project p{
     color: #122121;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
 .abt-project a{
-    font-size: 10px;
+    font-size: 9px;
     color: rgb(255, 115, 0);
     cursor: pointer;
 }
@@ -557,13 +564,14 @@ span::selection{
 }
 
 .left-abt-c{
-    /* border: 1px solid black; */
+    /* border: 5px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .contact-img{
+    /* border: 1px solid black; */
     height: 100%;
     width:100%;
     object-fit: contain;
