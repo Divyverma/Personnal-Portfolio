@@ -437,13 +437,14 @@ span::selection{
 }
 
 .project{
-    border-right: 5px solid rgb(255, 115, 0);
+    border-right: 4px solid rgb(255, 115, 0);
     width: 32%;
     height: 96%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-right: 4px;
+    position: relative;
 }
 
 .project img{
@@ -451,13 +452,24 @@ span::selection{
     height: 88%;
     object-fit: contain;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.3s ease;
     z-index: 3;
+}
+
+.image-wrapper{
+    /* border: 5px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    /* margin-right: 5px; */
+    /* border-right: 3px solid rgb(255, 115, 0); */
 }
 .abt-project{
     /* border: 1px solid black; */
     height: 95%;
-    width: 40%;
+    width: 45%;
 }
 
 .abt-project h1{
@@ -479,8 +491,9 @@ span::selection{
 }
 
 .project img:hover{
-    transform:translateX(-30px);
-    box-shadow: rgba(255, 115, 0, 0.719) 8px 8px 10px;
+    transform:scale(90%);
+    box-shadow: 0 4px 8px 0 rgba(255, 115, 0, 0.6), 0 6px 20px 0 rgba(255, 155, 0, 0.19);
+    /* box-shadow: rgba(255, 115, 0, 0.719) 8px 8px 10px; */
 }
 
 
@@ -554,7 +567,8 @@ span::selection{
     height: 100%;
     width:100%;
     object-fit: contain;
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.685), 0 6px 20px 0 rgba(0, 0, 0, 0.384); */
 }
 
 
