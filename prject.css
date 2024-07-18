@@ -58,6 +58,8 @@
     }
     
     .project img:hover{
-        transform:translateX(-30px)
+        transform:scale(90%);
+        box-shadow: 0 4px 8px 0 rgba(255, 115, 0, 0.6), 0 6px 20px 0 rgba(255, 155, 0, 0.19);
+        /* box-shadow: rgba(255, 115, 0, 0.719) 8px 8px 10px; */
     }
 }
