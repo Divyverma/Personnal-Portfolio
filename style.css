@@ -441,7 +441,7 @@ span::selection{
     border-left: 2px solid #122121;
     border-bottom: 2px solid rgb(255, 115, 0);
     border-right: 2px solid rgb(255, 115, 0); */
-    border-bottom: 1px solid rgb(255, 115, 0);
+    /* border-bottom: 1px solid rgb(255, 115, 0); */
     border-right: 1px solid rgb(255, 115, 0);
     width: 32%;
     height: 96%;
@@ -470,7 +470,7 @@ span::selection{
     width: 80%;
     height: 70%;
     margin-right: 7px;
-    border-right: 4px solid #122121;
+    border-right: 3px solid #122121;
 }
 .abt-project{
     /* border: 1px solid black; */
@@ -499,7 +499,8 @@ span::selection{
 
 .project img:hover{
     transform:scale(90%);
-    box-shadow: 0 4px 8px 0 rgba(255, 115, 0, 0.6), 0 6px 20px 0 rgba(255, 155, 0, 0.19);
+    box-shadow: none;
+    /* box-shadow: 0 4px 8px 0 rgba(255, 115, 0, 0.6), 0 6px 20px 0 rgba(255, 155, 0, 0.19); */
     /* box-shadow: rgba(255, 115, 0, 0.719) 8px 8px 10px; */
 }
 
