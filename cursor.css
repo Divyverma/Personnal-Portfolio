@@ -12,3 +12,10 @@
     opacity: 0.8;
     z-index: 110;
   }
+
+
+  @media (max-width:480px) {
+    .circle{
+      opacity: 0;
+    }
+  }
