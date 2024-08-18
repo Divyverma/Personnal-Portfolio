@@ -16,6 +16,8 @@
 
   @media (max-width:480px) {
     .circle{
+      width: 0px;
+    height: 0px;
       opacity: 0;
     }
   }
