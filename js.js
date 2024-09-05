@@ -44,3 +44,9 @@ window.addEventListener("mousemove", function(e){
     }, {duration:500, fill:"forwards"})
 
 })
+
+// pre loader 
+var loader = document.getElementById('preloader');
+window.addEventListener('load', function(){
+    loader.style.display = 'none';
+})
