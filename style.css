@@ -9,14 +9,14 @@ html {
 }
 
 /* pre loader */
-/* #preloader{
+#preloader{
     background: #000 url(img/preloader.gif) no-repeat center;
     background-size: 50%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 99999999;
-} */
+}
 
 .hero{
     border: 1px solid #eff4fd;
@@ -814,7 +814,7 @@ form h3{
 }
 
 .contri img{
-    width: 88%;
+    width: 74%;
     height: 88%;
     object-fit: contain;
     overflow: hidden;
