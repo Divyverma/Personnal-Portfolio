@@ -9,14 +9,14 @@ html {
 }
 
 /* pre loader */
-#preloader{
+/* #preloader{
     background: #000 url(img/preloader.gif) no-repeat center;
     background-size: 50%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 99999999;
-}
+} */
 
 .hero{
     border: 1px solid #eff4fd;
@@ -436,7 +436,6 @@ span::selection{
 }
 
 .project-wrapper{
-    /* border: 1px solid black; */
     width: 95%;
     height: 45%;
     background-color: #eff4fd;
@@ -447,11 +446,6 @@ span::selection{
 }
 
 .project{
-    /* border-top: 2px solid #122121;
-    border-left: 2px solid #122121;
-    border-bottom: 2px solid rgb(255, 115, 0);
-    border-right: 2px solid rgb(255, 115, 0); */
-    /* border-bottom: 1px solid rgb(255, 115, 0); */
     border-right: 1px solid rgb(255, 115, 0);
     width: 32%;
     height: 96%;
@@ -750,33 +744,120 @@ form h3{
 
 
 
+/* open source contribuiton */
 
 
+.contri-section{
+    height: 90vh;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    background: #eff4fd;
+}
 
 
+.contri-div{
+    height: 20%;
+    display: flex;
+}
 
+.contri-content{
+    text-align: right;
+    padding: 5px;
+    width: 100%;
+}
 
+.contri-heading{
+    font-size: 45px;
+    color: #122121;
+    text-transform: uppercase;
+    /* margin-top: -5px; */
+}
 
+.contri-heading span{
+    color: rgb(255, 115, 0);
+}
 
+.contri-content p{
+    color: #555;
+    /* margin-top: -20px; */
+}
 
+.lower-contri{
+    margin: 1rem;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
 
+.wrapper-contri{
+    width: 95%;
+    height: 86%;
+    background-color: #eff4fd;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.contri{
+    border-right: 1px solid rgb(255, 115, 0);
+    width: 45%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4px;
+    position: relative;
+}
 
+.contri img{
+    width: 88%;
+    height: 88%;
+    object-fit: contain;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+    z-index: 3;
+}
 
+.contri-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88%;
+    height: 70%;
+    margin-right: 7px;
+    border-right: 3px solid #122121;
+}
+.abt-contri{
+    height: 95%;
+    width: 45%;
+}
 
+.abt-contri h1{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(255, 115, 0);
+    z-index: 2;
+}
 
-/* **************** responsive ******************* */
+.abt-contri p{
+    color: #122121;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 
+.abt-contri a{
+    font-size: 10px;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
 
-
-
-
-
-/* ********581*************** */
-
-@media (min-width:551px) and (max-width:681px){
-
-
-
-
+.wrapper-contri img:hover{
+    transform:scale(90%);
+    box-shadow: none;
 }
